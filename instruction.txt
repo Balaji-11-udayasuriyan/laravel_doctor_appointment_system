@@ -1,0 +1,98 @@
+modules 
+
+1. User Module
+Handles registration, login, roles (doctor, patient, admin).
+
+Models: User
+
+Features:
+
+Authentication (Laravel Breeze/Jetstream/Passport)
+
+User roles and permissions
+
+Profile management
+
+2. Doctor Module
+Manages doctor-specific data.
+
+Models: Doctor
+
+Features:
+
+Specializations
+
+Available slots (time schedules)
+
+Profile information
+
+3. Patient Module
+Manages patient information.
+
+Models: Patient
+
+Features:
+
+Medical history (optional)
+
+Basic profile data
+
+4. Appointment Module
+Manages appointment bookings and status.
+
+Models: Appointment
+
+Features:
+
+Book appointment
+
+Approve/Reject/Complete appointment
+
+Notifications
+
+5. Schedule Module
+Defines doctor's availability.
+
+Models: Schedule
+
+Features:
+
+Create/edit/delete slots
+
+Link to doctor
+
+6. Specialization Module
+Allows categorizing doctors.
+
+Models: Specialization
+
+Features:
+
+Tag doctors with their specialties (cardiology, ENT, etc.)
+
+7. Notification Module
+Sends alerts (Email/SMS or Laravel Notification).
+
+Features:
+
+Notify patients and doctors about appointment changes
+
+8. Admin Module
+Dashboard, management of users, appointments, doctors, etc.
+
+Features:
+
+CRUD operations for all models
+
+Reporting
+
+9. Review/Rating Module (Optional)
+Patients can rate doctors after appointments.
+
+Models: Review
+
+10. Payment Module (Optional)
+Handles consultation payments.
+
+Models: Payment
+
